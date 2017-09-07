@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="26px" viewBox="0 0 45 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>menu-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.2216528,10.1719403 C20.2216528,15.5645667 15.8298349,19.9367686 10.4130142,19.9367686 C4.99619355,19.9367686 0.604375615,15.5645667 0.604375615,10.1719403 C0.604375615,4.77931384 4.99619355,0.407111967 10.4130142,0.407111967 C15.8298349,0.407111967 20.2216528,4.77931384 20.2216528,10.1719403 L20.2216528,10.1719403 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.6172772" height="19.5296566" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="PDP---Variations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-PDP-var-color-SM-Copy" transform="translate(-306.000000, -26.000000)" stroke="#FFFFFF">
+            <g id="Group-11" transform="translate(-51.000000, -1.000000)">
+                <g id="Group-8">
+                    <g id="Group-4" transform="translate(51.000000, 0.000000)">
+                        <g id="navigation" transform="translate(25.000000, 24.000000)">
+                            <g id="menu-icon" transform="translate(281.000000, 3.000000)">
+                                <g transform="translate(0.000000, 3.290323)" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M0.735725817,11.4982302 L16.6694809,11.4982302" id="Stroke-119"></path>
+                                    <path d="M0.735725817,1.59236465 L15.9746565,1.59236465" id="Stroke-120"></path>
+                                    <path d="M0.735725817,21.4040957 L30.5866516,21.4040957" id="Stroke-121"></path>
+                                </g>
+                                <g id="search-icon" transform="translate(18.728814, 0.000000)" stroke-linecap="square">
+                                    <path d="M24.6757556,22.1978146 L18.4881394,15.715596 C17.9094297,16.5740872 17.1893122,17.3300477 16.3539431,17.938722 L22.4925161,24.3713026 C23.0932952,24.9685846 24.0757939,24.9685846 24.6757556,24.3713026 C25.2757173,23.7732069 25.2757173,22.7950966 24.6757556,22.1978146 L24.6757556,22.1978146 Z" id="Stroke-29" stroke-width="1.1"></path>
+                                    <use id="Stroke-27" mask="url(#mask-2)" stroke-width="2.2" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

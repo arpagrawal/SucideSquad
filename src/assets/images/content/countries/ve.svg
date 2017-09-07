@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>3248BA73-AF0B-485C-A8F9-EB9EB50E567B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="18"></rect>
+    </defs>
+    <g id="Exports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-NS-country-L" transform="translate(-104.000000, -1033.000000)">
+            <g id="Group-10" transform="translate(72.000000, 344.000000)">
+                <g id="Group-5" transform="translate(32.000000, 41.000000)">
+                    <g id="Group-8-Copy-7" transform="translate(0.000000, 646.000000)">
+                        <g id="ve" transform="translate(0.000000, 2.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Page-1" mask="url(#mask-2)">
+                                <polygon id="Fill-1" fill="#EED12F" points="0 6.00014 24 6.00014 24 0.00014 0 0.00014"></polygon>
+                                <polygon id="Fill-2" fill="#242EA7" points="0 12 24 12 24 6 0 6"></polygon>
+                                <polygon id="Fill-3" fill="#BD0034" points="0 18 24 18 24 12 0 12"></polygon>
+                                <g id="Group-2" transform="translate(7.000000, 7.000000)" fill="#FFFFFF">
+                                    <polygon id="Fill-4" points="3.7548 1.99339 3.93974118 0.69419 4.56162353 1.85339 3.3708 1.27799 4.67456471 1.04909"></polygon>
+                                    <polygon id="Fill-5" points="5.01077647 1.85325 5.63265882 0.69405 5.8176 1.99325 4.89783529 1.04965 6.2016 1.27785"></polygon>
+                                    <polygon id="Fill-6" points="2.62432941 2.55395 2.34832941 1.26735 3.33232941 2.14655 2.01515294 2.01005 3.16362353 1.35275"></polygon>
+                                    <polygon id="Fill-7" points="6.23922353 2.14648 7.22392941 1.26728 6.94792941 2.55388 6.40863529 1.35268 7.5564 2.00998"></polygon>
+                                    <polygon id="Fill-8" points="1.75298824 3.46171 1.05134118 2.34591 2.27957647 2.83801 0.994164706 3.15581 1.84687059 2.15061"></polygon>
+                                    <polygon id="Fill-9" points="7.29254118 2.83829 8.52077647 2.34619 7.81912941 3.46199 7.72665882 2.15089 8.57795294 3.15609"></polygon>
+                                    <polygon id="Fill-10" points="1.24842353 4.6102 0.204423529 3.801 1.52865882 3.8465 0.431011765 4.5829 0.883482353 3.3474"></polygon>
+                                    <polygon id="Fill-11" points="8.04458824 3.84657 9.36741176 3.80107 8.32482353 4.61027 8.68976471 3.34747 9.14223529 4.58297"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

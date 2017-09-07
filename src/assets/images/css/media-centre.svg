@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="20px" viewBox="0 0 25 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>3111915C-D2E7-4F91-87F8-ECB0FE701F7B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="32"></rect>
+    </defs>
+    <g id="Exports_Sayanee" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Account_nav_Distributor_SM" transform="translate(-174.000000, -294.000000)">
+            <g id="Group-10" transform="translate(133.000000, 262.000000)">
+                <g id="media_centre" transform="translate(37.000000, 25.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="Page-1-Copy-9" mask="url(#mask-2)" stroke-linecap="round" stroke="#FFFFFF" stroke-linejoin="round">
+                        <g transform="translate(4.000000, 7.000000)">
+                            <path d="M24.1457016,16.2614525 C24.1457016,17.5449457 23.1061302,18.5845171 21.8226369,18.5845171 L2.9035985,18.5845171 C1.62126681,18.5845171 0.580533854,17.5449457 0.580533854,16.2614525 L0.580533854,2.9038308 C0.580533854,1.62033759 1.62126681,0.580766161 2.9035985,0.580766161 L21.8226369,0.580766161 C23.1061302,0.580766161 24.1457016,1.62033759 24.1457016,2.9038308 L24.1457016,16.2614525 L24.1457016,16.2614525 Z" id="Stroke-1"></path>
+                            <path d="M7.67029484,3.57142857 L17.0566375,3.57142857" id="Stroke-3"></path>
+                            <path d="M3.37529677,7.14285714 L9.71029405,7.14285714" id="Stroke-5"></path>
+                            <path d="M3.37529677,10.7142857 L9.71029405,10.7142857" id="Stroke-7"></path>
+                            <path d="M3.37529677,14.2857143 L9.71029405,14.2857143" id="Stroke-9"></path>
+                            <polygon id="Stroke-11" points="12.36335 15.1359277 20.8913203 15.1359277 20.8913203 8.32354061 12.36335 8.32354061"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

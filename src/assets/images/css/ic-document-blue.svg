@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="32px" viewBox="0 0 26 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>301D475C-5452-48AB-9831-AE6927CF5D61</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M8.87308215,0.274856887 C8.87335436,0.283703663 23.1148709,0.274856887 23.1148709,0.274856887 C24.6547062,0.274856887 25.9029893,1.52895796 25.9029893,3.0698822 L25.9029893,28.9754419 C25.9029893,30.5190918 24.6538587,31.7704672 23.1110742,31.7704672 L3.5058202,31.7704672 C1.96388805,31.7704672 0.713905077,30.5251868 0.713905077,28.9909214 L0.713905077,7.55534498 C0.713905077,7.55534498 5.70018285,2.74246401 8.17092037,0.271726489" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="25.1890842" height="31.4987407" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="UGC-Upload-Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-MediaCenter-Small---UGC-Upload---Landing" transform="translate(-262.000000, -776.000000)" stroke="#37B0C9">
+            <g id="ic-document" transform="translate(262.000000, 776.000000)">
+                <g id="Group-13-Copy">
+                    <path d="M6.70203065,16.6826875 L20.7800528,16.6826875" id="Stroke-122-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.70203065,7.68973848 L20.7800528,7.68973848" id="Stroke-123-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.70203065,25.6756365 L20.7800528,25.6756365" id="Stroke-124-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.70203065,21.6787703 L17.1075661,21.6787703" id="Stroke-125-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M6.70203065,11.6866047 L17.1075661,11.6866047" id="Stroke-126-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <use id="Rectangle-8" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>AB96E54E-EFC6-4E25-89E8-4BBEB07CF75F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M18,36 C27.9411255,36 36,27.9411255 36,18 C36,8.0588745 27.9411255,0 18,0 C8.0588745,0 0,8.0588745 0,18 C0,27.9411255 8.0588745,36 18,36 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="38" height="38">
+            <rect x="-1" y="-1" width="38" height="38" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Distributor-Checkout-RC-15" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-Checkout-Distributor-00-Flow" transform="translate(-2173.000000, -2662.000000)">
+            <g id="ic-shipping-active" transform="translate(2174.000000, 2663.000000)">
+                <g id="Group-19">
+                    <g id="Group-2">
+                        <g id="Oval-157-Copy-4">
+                            <use fill="#1CD8D2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="ic-package-copy-4" transform="translate(7.866690, 7.128140)" stroke-linecap="round" stroke="#FFFFFF">
+                            <polygon id="Stroke-160" stroke-linejoin="round" points="10.187655 0.378193015 0.579811887 5.18211458 10.187655 10.6723107 19.7954982 5.18211458"></polygon>
+                            <path d="M5.81176287,2.68160478 L14.9913707,7.92748713" id="Stroke-161"></path>
+                            <polyline id="Stroke-162" stroke-linejoin="round" points="0.579811887 5.18211458 0.579811887 15.4762322 10.187655 20.9664283 19.7954982 15.4762322 19.7954982 5.18211458"></polyline>
+                            <path d="M10.187655,10.6723107 L10.187655,20.9664283" id="Stroke-163" stroke-linejoin="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

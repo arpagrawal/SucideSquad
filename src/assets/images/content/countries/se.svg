@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>9AFA4054-2E92-4A98-A0CD-A707A3118936</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="18"></rect>
+        <rect id="path-3" x="0.0228552632" y="3.53988281e-07" width="26.9475" height="20"></rect>
+    </defs>
+    <g id="Exports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-NS-country-L" transform="translate(-395.000000, -1332.000000)">
+            <g id="Group-10" transform="translate(72.000000, 344.000000)">
+                <g id="Group-6" transform="translate(323.000000, 41.000000)">
+                    <g id="Group-8-Copy-24" transform="translate(0.000000, 942.000000)">
+                        <g id="se" transform="translate(0.000000, 5.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-2)" id="svg589">
+                                <g transform="translate(-2.000000, 0.000000)">
+                                    <g>
+                                        <g id="flag-Clipped">
+                                            <mask id="mask-4" fill="white">
+                                                <use xlink:href="#path-3"></use>
+                                            </mask>
+                                            <g id="rect15335"></g>
+                                            <g id="flag" mask="url(#mask-4)">
+                                                <g transform="translate(-0.443309, -0.073243)" id="g558">
+                                                    <g transform="translate(0.031237, 0.033937)">
+                                                        <rect id="rect552" fill="#006AA7" x="0.0389772533" y="0.050356897" width="9.47363795" height="7.49996338"></rect>
+                                                        <rect id="rect553" fill="#006AA7" x="0.0389772533" y="11.2885163" width="9.47363795" height="7.49996338"></rect>
+                                                        <rect id="rect554" fill="#FECC00" x="0.0389772533" y="7.54603458" width="9.47363795" height="3.74998169"></rect>
+                                                        <rect id="rect556" fill="#FECC00" x="9.47363795" y="0.0396426636" width="3.78945518" height="18.7499084"></rect>
+                                                        <rect id="rect557" fill="#FECC00" x="13.1429133" y="7.54710601" width="17.0525483" height="3.74998169"></rect>
+                                                        <rect id="rect558" fill="#006AA7" x="13.259845" y="11.2895877" width="17.0525483" height="7.49996338"></rect>
+                                                        <rect id="rect559" fill="#006AA7" x="13.259845" y="0.050356897" width="17.0525483" height="7.49996338"></rect>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

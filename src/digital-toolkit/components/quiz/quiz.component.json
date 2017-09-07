@@ -1,0 +1,99 @@
+{
+  "qlist": [
+  	{
+      "question": {
+        "qtype": "text",
+        "answertype": "M",
+        "noOfCorrectAnswers": 2,
+        "step": 1,
+        "ismandatory": true,
+        "question": "Pick an answer that best describes <span class='you-style'>you</span>:",
+        "options": [
+          {
+            "answerId": "1",
+            "answerValue": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart, I am alone, and feel."
+          },
+          {
+            "answerId": "2",
+            "answerValue": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart."
+          },
+          {
+            "answerId": "3",
+            "answerValue": "A wonderful"
+          },
+          {
+            "answerId": "4",
+            "answerValue": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy."
+          },
+          {
+            "answerId": "5",
+            "answerValue": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart, I am alone."
+          },
+          {
+            "answerId": "6",
+            "answerValue": "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart, I am."
+          }
+        ],
+        "selectedAnswer": [
+
+        ]
+      }
+    },
+    {
+      "question": {
+        "qtype": "media",
+        "answertype": "S",
+        "step": 2,
+        "noOfCorrectAnswers": 1,
+        "ismandatory": true,
+        "question": "Which of the following images is most appealing to you?",
+        "options": [
+          {
+            "answerId": "1",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_A.png"
+          },
+          {
+            "answerId": "2",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_B.png"
+          },
+          {
+            "answerId": "3",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_C.png"
+          },
+          {
+            "answerId": "4",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_D.png"
+          }
+        ],
+          "selectedAnswer": [
+        ]
+      }
+    },
+    {
+      "question": {
+        "qtype": "media",
+        "answertype": "S",
+        "noOfCorrectAnswers": 1,
+        "step": 3,
+        "ismandatory": true,
+        "question": "Which of the products are you most interested in?",
+        "options": [
+          {
+            "answerId": "1",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_1.png"
+          },
+          {
+            "answerId": "2",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_2.png"
+          },
+          {
+            "answerId": "3",
+            "answerValue": "../../../../src/assets/images/content/sample_answer_3.png"
+          }
+        ],
+        "selectedAnswer": [
+        ]
+      }
+    }
+  ]
+}

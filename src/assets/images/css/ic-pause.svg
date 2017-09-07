@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/pause-circle" transform="translate(-9.000000, -9.000000)" fill="#FFFFFF">
+            <g id="ic-pause-circle">
+                <g id="ic-pause" transform="translate(9.000000, 9.000000)">
+                    <polygon id="Stroke-73" points="8.739 12.5 12.739 12.5 12.739 0.5 8.739 0.5"></polygon>
+                    <polygon id="Stroke-75" points="0.739 12.5 4.739 12.5 4.739 0.5 0.739 0.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

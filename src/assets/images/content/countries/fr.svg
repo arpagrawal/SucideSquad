@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>2EA85BB1-3988-4CFB-BB10-AEFFEE9E52F2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="18"></rect>
+    </defs>
+    <g id="Exports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-NS-country-L" transform="translate(-395.000000, -574.000000)">
+            <g id="Group-10" transform="translate(72.000000, 344.000000)">
+                <g id="Group-6" transform="translate(323.000000, 41.000000)">
+                    <g id="Group-7-Copy-6" transform="translate(0.000000, 186.000000)">
+                        <g id="fr" transform="translate(0.000000, 3.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-2)" id="Group">
+                                <g>
+                                    <polygon id="Shape" fill="#FFFFFF" points="0 0 24 0 24 18 0 18"></polygon>
+                                    <polygon id="Shape" fill="#00267F" points="0 0 8.0001375 0 8.0001375 18 0 18"></polygon>
+                                    <polygon id="Shape" fill="#F31830" points="15.999825 0 24 0 24 18 15.999825 18"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

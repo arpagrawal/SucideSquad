@@ -1,0 +1,37 @@
+.quiz-title-container.container-fluid.no-gutter
+    .row
+      .img-cross(ng-click="ctrl.mediaCenterPage()")
+      .quiz-title QUIZ TITLE HERE
+    div(ng-show="ctrl.isDisplayErrorMessage")
+       page-level-error-component(error-message="ctrl.errorMessage" danger-type='1' is-display-error-message="ctrl.isDisplayErrorMessage")
+  .quiz-background.container-fluid
+
+    .progress-bar-container.container
+      .row
+        .leftarr(ng-click="ctrl.model.changeProg('previous')" ng-class="{'unselected' : (ctrl.model.currentCount == 1),'left-arr-visible':(ctrl.model.currentQuestion.step != 1)}")
+        div.progresso
+          div.progressi(ng-style="{'width':ctrl.model.currentProgressWidth}")
+        .rightarr(ng-click="ctrl.model.changeProg('next', ctrl.model.currentQuestion.step == 3)", ng-class="(ctrl.model.currentQuestion.ismandatory && (ctrl.model.currentQuestion.selectedAnswer && ctrl.model.currentQuestion.selectedAnswer.length == ctrl.model.currentQuestion.noOfCorrectAnswers))?'right-arrow-visible':''")
+    div(ng-if="ctrl.model.currentType == 'text'")
+      .wrapperDiv
+        .question(ng-bind-html="ctrl.model.currentQuestion.question")
+        .containerDiv
+          .answerbox-text.col-xs-12(ng-repeat="value in ctrl.model.currentQuestion.options")
+            .answer-text(ng-class="{'selectedOption' : ctrl.model.optionSelected(value.answerId),'unselectedOption' : ((!ctrl.model.optionSelected(value.answerId)) && (ctrl.model.currentQuestion.selectedAnswer.length > 0))}")
+              .answer-word.pointer(ng-click="ctrl.model.selectAns(value.answerId)"){{value.answerValue | limitTo:150}}
+              div.markselected
+    div(ng-if="ctrl.model.currentType == 'media' && ctrl.model.anslength == 4")
+      .wrapperDiv
+        .question {{ctrl.model.currentQuestion.question}}
+        .containerDiv
+          .square.imageBackground(ng-repeat="value in ctrl.model.currentQuestion.options",ng-click="ctrl.model.selectAns(value.answerId);",ng-class="{'selectedOption' : ctrl.model.optionSelected(value.answerId), 'unselectedOption' : ((!ctrl.model.optionSelected(value.answerId)) && (ctrl.model.currentQuestion.selectedAnswer.length > 0))}")
+            img.pointer(ng-src='{{value.answerValue}}', width="100%", height="100%" alt="Option{{$index+1}}")
+            div.markselected
+    div(ng-if="ctrl.model.currentType == 'media' && ctrl.model.anslength == 3")
+      .wrapperDiv
+        .question {{ctrl.model.currentQuestion.question}}
+        .containerDiv
+          .answerbox.col-xs-12(ng-repeat="value in ctrl.model.currentQuestion.options")
+                .answer(ng-click="ctrl.model.selectAns(value.answerId)",ng-class="{'selectedOption' : ctrl.model.optionSelected(value.answerId),'unselectedOption' : ((!ctrl.model.optionSelected(value.answerId)) && (ctrl.model.currentQuestion.selectedAnswer.length > 0))}")
+                    img.pointer(ng-src='{{value.answerValue}}', alt='answer{{$index+1}}',height='100%', width='100%')
+                    div.markselected

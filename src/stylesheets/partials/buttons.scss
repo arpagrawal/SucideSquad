@@ -1,0 +1,87 @@
+// Buttons
+@import "variables.scss";
+@import "mixin.scss";
+
+.btn {
+  font-weight: $proxima-semibold;
+  text-transform: uppercase;
+  padding: 0.9rem 1.625rem 0.85rem;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  border-radius: 0.1875rem;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+  transition: all .2s linear;
+
+  &:focus, &:active:focus {
+    outline: 0;
+  }
+
+  &.btn-link {
+    padding: 0.5em;
+    text-transform: none;
+    font-weight: $proxima-light;
+    letter-spacing: 0;
+  }
+
+  &.btn-default {
+    color: white;
+    background: $brand-primary;
+  }
+
+  &.btn-secondary {
+    color: $gray;
+    border-color: $gray;
+  }
+
+  &.btn-tertiary-outline {
+    background: none;
+    color: black;
+    border-color: black;
+  }
+
+  &.reverse {
+    color: white;
+    border-color: white;
+  }
+
+  &.facebook {
+    color: white;
+    background: #3C5A99;
+  }
+
+  &.instagram {
+    color: white;
+    background: #2E587F;
+  }
+
+  &.twitter {
+    color: white;
+    background: #4685B9;
+  }
+
+  &.linked-in {
+    color: white;
+    background: #15548B;
+  }
+
+  &.amazon {
+    color: white;
+    background: #DE9823;
+  }
+
+  &.google {
+    color: white;
+    background: #BC3A2D;
+  }
+  &.btn-primary{
+    &.play{
+        padding:0;
+        width: 0;
+        height: 0;
+        span{
+            display: none;
+        }
+    }
+  }
+}

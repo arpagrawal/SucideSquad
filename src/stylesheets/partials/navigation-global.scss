@@ -1,0 +1,276 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+// Primary Navigation
+
+header.header-primary {
+  padding: 0;
+  //background: linear-gradient(to top, $brand-primary 0%,$dusk 100%);
+
+  nav {
+    width: 100%;
+    display: flex;
+
+    @include media-breakpoint-up(md) {
+      flex-direction: column;
+    }
+  }
+}
+
+.nav-meta-wrap {
+  padding: 1rem;
+  order: 2;
+
+  @include media-breakpoint-up(md) {
+    background: $dusk;
+    order: 1;
+  }
+}
+
+.nav-meta {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+
+  li {
+    margin-left: 2rem;
+  }
+
+  .cart-menu-item {
+    &::before {
+      content: '';
+      background: url('../assets/images/css/icon-shopping-cart-white.svg') no-repeat;
+      background-size: 100%;
+      height: 30px;
+      width: 23px;
+      display: block;
+      float: left;
+    }
+
+    span {
+      @include visuallyHidden;
+    }
+  }
+
+  .account-menu-item {
+
+    &::before {
+      content: '';
+      background: url('../assets/images/css/ic-profile.svg') no-repeat;
+      background-size: 100%;
+      height: 30px;
+      width: 30px;
+      display: block;
+      float: left;
+    }
+
+    background: none;
+    color: white;
+    font-weight: $proxima-thin;
+    outlne: 0;
+    border: none;
+    padding: 0;
+
+    span {
+      @include visuallyHidden;
+
+      @include media-breakpoint-up(md) {
+        @include visuallyShown;
+        display: inline-block;
+        top: 3px;
+        margin-left: 0.5rem;
+      }
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  .toggle-menu-item {
+    &::before {
+      content: '';
+      background: url('../assets/images/css/ic-menu.svg') no-repeat;
+      background-size: 100%;
+      height: 30px;
+      width: 40px;
+      display: block;
+      float: left;
+    }
+
+    span {
+      @include visuallyHidden;
+    }
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+  }
+
+}
+
+.nav-main-wrap {
+  padding: 1rem;
+  order: 1;
+
+  @include media-breakpoint-up(md) {
+    order: 2;
+  }
+}
+
+.nav-main {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  align-items: flex-end;
+  //justify-content: space-between;
+
+  li {
+    //margin-right: 2rem;
+  }
+
+  .branding-menu-item {
+
+    &::before {
+      content: '';
+      background: url('../assets/images/css/logo-mark-white.svg') no-repeat;
+      background-size: 100%;
+      height: 30px;
+      width: 30px;
+      display: block;
+
+      @include media-breakpoint-up(md) {
+        background: url('../assets/images/css/logo-full.svg') no-repeat;
+        background-size: 100%;
+        height: 45px;
+        width: 200px;
+      }
+    }
+
+    span {
+      @include visuallyHidden;
+    }
+  }
+
+  // .shop-menu-item {
+  //   display: none;
+
+  //   @include media-breakpoint-up(md) {
+  //     display: block;
+  //   }
+  // }
+}
+
+
+.level-1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  background: none;
+  outline: 0;
+  border: none;
+
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+
+.pos-relative {
+  @include media-breakpoint-up(md) {
+    position: relative;
+  }
+}
+
+.nav-primary {
+  width: 100%;
+  height: 100vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: $dusk;
+  transition: all .35s;
+  transform: translateX(100%);
+
+  @include media-breakpoint-up(md) {
+    padding: 0;
+    height: auto;
+    position: relative;
+    background: none;
+    transform: translateX(0%);
+  }
+
+  &.is-open {
+    transform: translateX(0%);
+  }
+
+  li {
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+      margin-right: 2rem;
+    }
+  }
+
+  .close-menu-item {
+    text-align: right;
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+
+    button {
+      outline: 0;
+      background: none;
+      border: none;
+      color: white;
+    }
+  }
+
+  input[type="search"] {
+    margin: 0;
+  }
+}
+
+.nav-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  list-style-type: none;
+  background: #fff;
+  padding: 1rem;
+  width: 100%;
+
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 100%;
+  }
+}
+
+
+.dropdown-menu {
+  width: 100%;
+  margin: 0;
+
+  @include media-breakpoint-up(md) {
+    min-width: 325px;
+    right: 0;
+    left: auto;
+  }
+
+}
+
+.nav-login-form {
+  padding: 1rem;
+  margin: 0;
+}

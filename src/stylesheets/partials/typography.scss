@@ -1,0 +1,74 @@
+@import "variables.scss";
+@import "mixin.scss";
+// Typography
+
+html {
+  font-size: 16px;
+
+  // @include media-breakpoint-up(xl) {
+  //   font-size: 18px;
+  // }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  color: $gray-dark;
+  margin: 0 0 .75rem;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2rem;
+  font-weight: $proxima-thin;
+  text-transform: uppercase;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 2.375rem;
+    line-height: 2.5rem;
+  }
+}
+
+h2 {
+  font-weight: $proxima-thin;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+  }
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  font-weight: $proxima-thin;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: $proxima-semibold;
+}
+
+h5 {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-weight: $proxima-semibold;
+  text-transform: uppercase;
+  color: $gray-black;
+}
+
+p {
+  font-weight: $proxima-light;
+  font-size: 1rem;
+  line-height: 1.375rem;
+
+  &.small {
+    font-size: 0.8125rem;
+    line-height: 1.188rem;
+  }
+}

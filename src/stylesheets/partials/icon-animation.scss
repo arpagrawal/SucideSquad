@@ -1,0 +1,61 @@
+// Icon Animation
+@import "variables.scss";
+@import "mixin.scss";
+
+svg.heart {
+  width: 100%;
+  fill: #818387;
+  transition: all 3s;
+  overflow: visible!important;
+}
+
+button.favorite {
+  display: block;
+  outline: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  overflow: visible;
+  position: relative;
+
+  &:focus {
+    outline: 0;
+  }
+
+  #heart-outline {
+    transition: all .2s;
+    cursor: pointer;
+  }
+  &.active {
+    svg {
+
+      #heart-outline {
+        stroke: $pink;
+
+      }
+      #fill {
+        position: absolute;
+        z-index: 10;
+        transform-origin: 50% 50%;
+        animation: heartBeat .5s 1 cubic-bezier(0.16, 1.32, 0.91, 1.26);
+        animation-fill-mode: forwards;
+        fill: $pink;
+      }
+    }
+  }
+}
+
+@keyframes heartBeat {
+  0%   {
+    opacity: 0.5;
+  }
+  50% {
+    fill: $pink;
+    transform: scale3d(1.4, 1.4, 1.4);
+  }
+  100% {
+    opacity: 1;
+    fill: $pink;
+    transform: scale3d(1,1,1);
+  }
+}

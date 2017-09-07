@@ -1,0 +1,72 @@
+.container {
+  h1 {
+    margin: 0 0 1em;
+  }
+}
+
+.btns {
+  border: 1px solid #CEE8EA;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 2em;
+}
+
+.btn {
+  margin-bottom: 1em;
+  font-size: .85rem;
+  border: 1px solid #0089B2;
+  text-transform: uppercase;
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  transform: translate3d(0%, 0%, 0);
+  //width: auto;
+  display: inline-block;
+  padding: 1em 2.5em;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #0089B2;
+  letter-spacing: 1px;
+  //font-weight: 500;
+  cursor: pointer;
+  overflow: hidden;
+  //box-shadow: 0 0px 0 #2980b9;
+  span {
+    position: relative;
+    z-index: 1;
+  }
+  .circle {
+    position: absolute;
+    z-index: 0;
+    background-color: #0089B2;
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: .75;
+    width: 100px;
+    height: 100px;
+    &.animate {
+      animation: grow .5s linear;
+    }
+  }
+}
+
+@keyframes grow {
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+h3.marketing {
+  color: #9E9EA2;
+  font-weight: 100;
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1;
+  margin: 1em 1.5em 0;
+}

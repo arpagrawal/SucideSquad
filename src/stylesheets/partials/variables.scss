@@ -1,0 +1,194 @@
+/////////////////////////////////
+// VARIABLES
+/////////////////////////////////
+
+// Fonts
+$font-family-sans-serif: 'proxima-nova', 'source-han-sans-japanese', 'source-han-sans-korean', 'source-han-sans-simplified-c', Helvetica, Arial, sans-serif;
+$headings-font-family: 'proxima-nova', 'source-han-sans-japanese', 'source-han-sans-korean', 'source-han-sans-simplified-c', Helvetica, Arial, sans-serif;
+$proxima-condensed: 'proxima-nova-extra-condensed', Helvetica, Arial, sans-serif;
+$proxima-thin: 100;
+$proxima-light: 300;
+$proxima-regular: 400;
+$proxima-lighter: 500;
+$proxima-semibold: 600;
+$proxima-bold: 700;
+$proxima-condensed-thin: 100;
+
+// Foundational Colors
+$brand-primary:             #008AB0; // Primary Blue
+$brand-secondary:			      #008AAF; // Secondary Blue
+$blue-light:                #37B0C9; // Blue 1
+$blue-lighter:              #B9E1EA; // Blue 2
+$blue-lightest:             #E7FAFF; // Blue 3
+$blue-light-secondary:      #8BC9DB; // Blue 4
+$blue-dark:                 #00799B; // Blue 5
+$blue-dark-secondary:       #037EA5; // Blue 6
+
+$black:                     #000000;
+$nobel:                     #9B9B9B;
+$gray-black:                #2D2D2D; // Soft Black
+$gray-dark:                 #444444 !default; // Dark Gray
+$gray:                      #727272 !default; // Medium Gray
+$gray-faded:                #777676;
+$gray-light:                #A7A7A7 !default; // Light Gray
+$gray-lighter:              #D1D1D1 !default; // Default BS color keeping for now
+$gray-lightest:             #F7F7F7 !default; // Default BS color keeping for now
+$gray-dull:                 #F2F2F2;
+$gray-white:                #FAFAFA; // Soft White
+$gray-fair:                 #F7F9FA;
+$gray-darker:               #4A4A4A;
+$gray-dark-tertiary:        #6f6f6f;
+$gray-checkout-border:      #EBE7E7;
+$gray-bold: 				        #4F4F4F;
+$gray-dark-secondary:       #7E7F80;
+$gray-dark-primary:      #DFE0E1;
+$gray-border-secondary:		  #E6E6E6;
+$gray-modest:                 #444545;
+$gray-foster:				        #EFEFEF;
+$gray-soft:					        #E2E2E2;
+$gray-softer: 				#CFD1D1;
+$gray-pale:               #C0C0C0;
+$gray-fade:					        #CDCDCD;
+$gray-fader:				        #443A3A;
+$gray-chateau:				      #A4A5A6;
+$gray-semi-light:			      #D0D0D0;
+$gray-whisper:				      #EAEAEA;
+$gray-light-border:         #E3E3E3;
+$gray-light-secondary-border:#DEE0E0;
+$gray-pitch:                #F8FAFA;
+$light-blue:                #deeff8;
+$bondi-blue:                #0090b3;
+$dark-bondi-blue:           #0092b4;
+$dark-turquoise:            #00ddd7;
+
+$white:                     #FFFFFF; // White
+$violet: 					          #D600E0; // violet
+$purple:					          #964BB3;
+$white-light: 				      #F6F6F6;
+$white-lighter:             #F5F5F5;
+$white-category:            #F7FAFC;
+$white-fade:                #F7F9FA;
+$fern:                      #6BC56A;
+$gray-border:               #DBDBDB;
+$gray-shade:				        #747474;
+$gray-dark-shade: 			    #979797;
+$gray-light-banner:         #CCCADF;
+$carissma:                  #e18788;
+$gray-night-rider:			#343434;
+// Accent Colors
+$pink:                      #FF76B9; // Blossom
+$pink-light:                #FF76BA;
+$aqua:                      #1CD8D2; // Aqua
+$light-aqua:                #2BDBD5;
+$lightest-aqua:             #BEFAF7;
+$dusk:                	 	  #007298; // Dusk
+$deep-lilac:                #9349B4;
+$light-coral:               #FF8782;
+$blizzard-blue:             #93EDC7;
+$button-blue:               #028fb2;
+$teal-blue:                 #0089AF;
+$category-banner-blue:      #079DC7;
+$purple:					          #964BB3;
+$persian-green:             #00afa9;
+$pelorous:                  #1892b4;
+$cerulean:                  #0f77a0;
+$azure:                     #eaf6f8;
+$cyan:						          #30d1cc;
+$don-juan:                  #554f51;
+$snow:                      #fbfbfb;
+$anzac:                     #40b1c8;
+$matterhorn:                #565656;
+$reset-grey:                #898787;
+$green-mantis:              #71c46d;
+$bismark-grey:              #546A79;
+$alice-bluish:              #f7f9fb;
+$aqua-blue-faded:           #e3f9ff;
+$very-dark-grey:            #2c2c2c;
+$bluish:                    #cfd0d1;
+$mustard:                   #7d740c;
+$gold:                      #ffd700;
+$gold-casablanca:           #f9b248;
+$orange:                    #f87320;
+$orange-dark:               #f76b1c;
+
+// Gradients
+$cayman: linear-gradient(to bottom, $brand-primary 0%,$aqua 100%);
+$sunset: linear-gradient(to bottom, $deep-lilac 0%, $light-coral 100%);
+$seafoam: linear-gradient(to bottom, $aqua 0%, $blizzard-blue 100%);
+$cayman-webkit: -webkit-linear-gradient(top, $brand-primary 0%, $aqua 100%);
+
+// Bootstrap Color Vars (Bootstrap might get dropped... Client doesn't like to work with it and wants to created there own framework...)
+$brand-success:             #5CB85C !default;
+$brand-info:                #5BC0DE !default;
+$brand-warning:             #f0AD4E !default;
+$brand-danger:              #D0021B !default;
+$enable-flex:               false !default;
+
+//social media icon colors
+$facebook-blue:             #3C5A99;
+
+// Spacing
+$gutter-space:              30px;
+
+// Distributor page Color range for overlay
+$distributor-overlay-from:              #1CD8C1;
+$distributor-overlay-to:              #0078B0;
+
+// $grid-breakpoints: (
+//   // Extra small screen / phone
+//   xs: 0,
+//   // Small screen / phone
+//   sm: 544px,
+//   // Medium screen / tablet
+//   md: 768px,
+//   // Large screen / desktop
+//   lg: 992px,
+//   // Extra large screen / wide desktop
+//   xl: 1200px
+// ) !default;
+
+$grid-breakpoints: (
+  // Small screen / phone
+  sm: 360px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 1024px,
+  // Extra large screen / wide desktop
+  xl: 1440px
+) !default;
+
+//temporary color in header and footer
+$pacific-blue:              #00A6C4;
+$gray-dull-white:           #A2A2A2;
+
+
+// adding colors for account setup styles
+$gray87:                    #dedede;
+$gray210:                   #d2d2d2;
+$gray6a6: 					        #a6a6a6;
+//adding colors for forgot username
+
+$light-red:                 #feeeee;
+$red:                       #f44444;
+$gray45:                    #dadada;
+$red:                       #f44444;
+$gray45:                    #dadada;
+$gray238:                   #eeeeee;
+$aqua-green:                #00d8d3;
+$red-dark:					    #ff0000;
+
+$scarlet:                    #F01616;
+$gray55:                     #d6d6d6;
+$gray73:                     #737373;
+//radio button color variabless
+$radio-aqua :                #00fff7;
+$black-radio :               #242424;
+$radio-black-shade:          #131313;
+$black: 					 #000000;
+$modal-backdrop-blue:		 #CCE8EF;
+$gray-e5: 					 #e5e5e5;
+$gray-dd:					 #dddddd;
+$gray-cc:					 #cccccc;
+$gray-divider:				 #8c8b8b;
+$gainsboro: 				 #d8d8d8;

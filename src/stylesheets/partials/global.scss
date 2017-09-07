@@ -1,0 +1,366 @@
+@import "variables.scss";
+@import "mixin.scss";
+// Global Base Styles
+body {
+    font-family: $font-family-sans-serif;
+    background: $gray-white;
+    background-size: cover;
+    color: $gray-dark;
+    overflow-x: hidden;
+    -ms-overflow-style: scrollbar;
+    & > .container-fluid {
+        max-width: 90rem; /* 1440/16 */
+        float: none;
+        display: block;
+        margin: 0px auto;
+        border: 1px solid $gray-dd;
+        position: relative;
+        overflow: hidden; 
+    }
+}
+
+header {
+    position: relative;
+    background: $brand-primary;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .branding {
+        flex: 0 0 auto;
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+}
+
+main {
+    background: $white;
+    padding: 2rem 0;
+    box-shadow: 0rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.20);
+}
+
+.loading-spinner {
+    background:url('../assets/images/css/field_spinner.gif') no-repeat right center;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+.container {
+    max-width: 64rem;
+    padding: 0;
+    width: 86.666%;
+    @include media-breakpoint-up(md) {
+        width: 93.75%;
+        max-width: 60rem;
+    }
+    @include media-breakpoint-up(lg) {
+        max-width: 73.125rem;
+    }
+    @include media-breakpoint-up(xl) {
+        max-width: 84.375rem;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background: $white-lighter;
+}
+
+a {
+    color: $brand-primary;
+    cursor: pointer;
+}
+a:focus{
+    outline: none;
+}
+img,
+video {
+    max-width: 100%;
+}
+//CSS to remove defalt video play icon on ios devices
+video::-webkit-media-controls-start-playback-button {
+      display: none!important;
+      -webkit-appearance: none;
+    }
+.video-btn {
+      position:absolute;
+      top:50%;
+      left:50%;
+  }
+
+.no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-gutter-left {
+    padding-left: 0
+}
+
+.no-gutter-right {
+    padding-right: 0
+}
+
+.center {
+    text-align: center;
+}
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+.nobottommargin {
+    margin-bottom: 0;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: $black;
+    text-shadow: 0 0.0625rem 0 $white;
+    opacity: .2;
+}
+
+.close:focus,
+.close:hover {
+    color: $black;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .5;
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+body.modal-open{
+    position: absolute;
+}
+.modal-open {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: auto;
+}
+
+.modal-content {
+    position: relative;
+    background-color: $white;
+    background-clip: padding-box;
+    box-shadow: 0rem 0.125rem 0.625rem 0rem rgba(0, 0, 0, 0.05);
+    outline: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background: $modal-backdrop-blue;
+    opacity: 0.9;
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+
+.modal-header {
+    padding: 0.9375rem;
+    border-bottom: 0.0625rem solid $gray-e5;
+}
+
+.modal-header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.modal-header .close {
+    margin-top: -0.125rem;
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0.9375rem;
+}
+
+.modal-footer {
+    padding: 0.9375rem;
+    text-align: right;
+    border-top: 0.0625rem solid $gray-e5;
+}
+
+.modal-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 0.3125rem;
+}
+
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -0.0625rem;
+}
+
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -624.9375rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    overflow: scroll;
+}
+
+::-webkit-input-placeholder {
+   color: $gray-lighter;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $gray-lighter;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $gray-lighter;
+}
+
+:-ms-input-placeholder {  /* IE 10-11*/
+   color: $gray-lighter !important;
+}
+
+::-ms-input-placeholder { /* Edge */
+    color: $gray-lighter !important;
+}
+
+/* Removing skype link from IE in Contact Information, specifically for Windows Machines */
+img[title *= 'Call'] {
+    display: none !important;
+}
+
+/* To invoke number-keypad on iOS and Andriod devices */
+input[type="tel"] {
+  -moz-appearance: textfield;
+}
+input[type="tel"]::-webkit-inner-spin-button,
+input[type="tel"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="tel"]:hover,
+input[type="tel"]:focus {
+  -moz-appearance: number-input;
+}
+/* End number-keypad */
+:-moz-ui-invalid:not(output) {
+    box-shadow: none;
+}
+
+@media (min-width: 544px) {
+    .modal-dialog {
+        width: 37.5rem;
+        margin: auto;
+    }
+    .modal-sm {
+        width: 18.75rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-lg {
+        width: 56.25rem;
+    }
+}
+
+.footer-text {
+    letter-spacing: 0.031rem;
+    color: $gray-dull-white;
+}
+
+select.red-border {
+    border: 1px solid $red;
+}
+
+@media print {
+    //Hiding header, footer, title from the page
+    .header.section,
+    .footer.section,
+    header,
+    footer,
+    .footer-nav,
+    div.app > div .section .new,
+    div.app div.iparys_inherited,
+    .gobalHeaderipar,
+    title {
+        display: none;
+    }
+    //Making sure Page is blank
+    @page {
+        size: auto;
+        margin: 0mm;
+    }
+}

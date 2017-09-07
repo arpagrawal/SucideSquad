@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>2A05A0C5-5DA1-4838-A5C0-262AD12D61EB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="18"></rect>
+    </defs>
+    <g id="Exports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-NS-country-L" transform="translate(-688.000000, -561.000000)">
+            <g id="Group-10" transform="translate(72.000000, 344.000000)">
+                <g id="Group-9" transform="translate(616.000000, 41.000000)">
+                    <g id="Group-7-Copy-12" transform="translate(0.000000, 174.000000)">
+                        <g id="china" transform="translate(0.000000, 2.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-2)">
+                                <polygon id="Fill-1" fill="#DE2910" points="0 19 25.9597629 19 25.9597629 0 0 0"></polygon>
+                                <polygon id="Fill-2" fill="#FFDE00" points="3.15017785 7.0585 4.8673947 1.9 6.58461154 7.0585 2.08713885 3.8665 7.64765055 3.8665"></polygon>
+                                <polygon id="Fill-3" fill="#FFDE00" points="10.7173176 1.98350104 8.91167644 2.38816146 10.1288902 1.02518854 9.96420998 2.82702187 9.0114986 1.27543437"></polygon>
+                                <polygon id="Fill-4" fill="#FFDE00" points="12.5412156 4.23639833 10.7161048 3.92594625 12.3796992 3.13036083 11.5118022 4.72885458 11.250342 2.93814417"></polygon>
+                                <polygon id="Fill-5" fill="#FFDE00" points="12.280952 7.3991225 10.7442749 6.38923292 12.5957507 6.32498917 11.1352484 7.4390225 11.6449051 5.69996833"></polygon>
+                                <polygon id="Fill-6" fill="#FFDE00" points="9.99000312 9.469125 8.97223089 7.95842708 10.7054696 8.59698542 8.91739158 9.07412292 10.075791 7.66206667"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

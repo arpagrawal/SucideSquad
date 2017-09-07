@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>8E487B40-0E0A-4D6F-9FE1-9E0C10F21B81</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="18"></rect>
+        <polygon id="path-3" points="0 0 23.9884041 0 23.9884041 18 0 18"></polygon>
+    </defs>
+    <g id="Exports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-NS-country-L" transform="translate(-104.000000, -711.000000)">
+            <g id="Group-10" transform="translate(72.000000, 344.000000)">
+                <g id="Group-5" transform="translate(32.000000, 41.000000)">
+                    <g id="Group-8-Copy-2" transform="translate(0.000000, 324.000000)">
+                        <g id="ch" transform="translate(0.000000, 2.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="cl" mask="url(#mask-2)">
+                                <g id="Clipped">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Shape"></g>
+                                    <g id="Group" mask="url(#mask-4)">
+                                        <polygon id="Shape" fill="#FFFFFF" points="8.43305271 0 25.3001464 0 25.3001464 8.4375 8.43305271 8.4375"></polygon>
+                                        <polygon id="Shape" fill="#0039A6" points="0 0 8.43338214 0 8.43338214 8.4375 0 8.4375"></polygon>
+                                        <polygon id="Shape" fill="#FFFFFF" points="5.52847731 6.31856689 4.22219253 5.33846558 2.92233163 6.32822388 3.40573572 4.71982544 2.10824671 3.72667236 3.71348829 3.71282959 4.2114202 2.109375 4.71995974 3.70910522 6.32520132 3.7112146 5.03436676 4.71376099 5.52851025 6.31853394"></polygon>
+                                        <polygon id="Shape" fill="#D52B1E" points="0 8.4375 25.3001464 8.4375 25.3001464 16.875 0 16.875"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

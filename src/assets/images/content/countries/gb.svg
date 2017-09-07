@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>40A067CF-5006-4E07-B273-DD749E72576F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="18"></rect>
+    </defs>
+    <g id="Exports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-NS-country-L" transform="translate(-688.000000, -433.000000)">
+            <g id="Group-10" transform="translate(72.000000, 344.000000)">
+                <g id="Group-9" transform="translate(616.000000, 41.000000)">
+                    <g id="Group-8-Copy-25" transform="translate(0.000000, 46.000000)">
+                        <g id="gb" transform="translate(0.000000, 2.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-2)" id="Clipped">
+                                <g transform="translate(-5.000000, 0.000000)">
+                                    <g>
+                                        <g id="Group" transform="translate(0.381053, 0.000000)">
+                                            <g id="Shape">
+                                                <polygon fill="#000066" points="0 0 33.7746947 0 33.7746947 16.7114375 0 16.7114375"></polygon>
+                                                <path d="M0,0 L0,1.86838056 L29.9986982,16.7115028 L33.7746947,16.7115028 L33.7746947,14.8431875 L3.77599649,0 L0,0 L0,0 Z M33.7746947,0 L33.7746947,1.86834792 L3.77599649,16.7114375 L0,16.7114375 L0,14.8430896 L29.9986982,0 L33.7746947,0 L33.7746947,0 Z" fill="#FFFFFF"></path>
+                                                <path d="M14.0727895,0 L14.0727895,16.7114375 L19.7019053,16.7114375 L19.7019053,0 L14.0727895,0 L14.0727895,0 Z M0,5.57047917 L0,11.1409583 L33.7746947,11.1409583 L33.7746947,5.57047917 L0,5.57047917 L0,5.57047917 Z" fill="#FFFFFF"></path>
+                                                <path d="M15.1986456,10.0268625 L0,10.0268625 L0,6.684575 L15.1986456,6.684575 L15.1986456,0 L15.1986456,0 L18.5760491,0 L18.5760491,6.684575 L33.7746947,6.684575 L33.7746947,10.0268625 L18.5760491,10.0268625 L18.5760491,16.7114375 L15.1986456,16.7114375 L15.1986456,10.0268625 Z M0,16.7114375 L11.2582316,11.1409583 L13.7755846,11.1409583 L2.51735298,16.7114375 L0,16.7114375 L0,16.7114375 Z M0,0 L11.2582316,5.57047917 L8.7408786,5.57047917 L0,1.24563056 L0,0 L0,0 Z M19.9991102,5.57047917 L31.2573418,0 L33.7746947,0 L22.5164632,5.57047917 L19.9991102,5.57047917 L19.9991102,5.57047917 Z M33.7746947,16.7114375 L22.5164632,11.1409583 L25.0338161,11.1409583 L33.7746947,15.4658722 L33.7746947,16.7114375 L33.7746947,16.7114375 Z" fill="#CC0000"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

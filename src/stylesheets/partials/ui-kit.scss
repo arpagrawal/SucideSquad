@@ -1,0 +1,430 @@
+@import "variables.scss";
+@import "mixin.scss";
+// UI Kit
+
+.ui-kit {
+  background: #fff;
+}
+
+#ui-kit {
+  padding: 2em 1.5em;
+  box-shadow: none;
+  section {
+    margin-bottom: 4em;
+  }
+
+  article {
+    display: block;
+    width: 100%;
+
+    > header {
+      margin-top: $gutter-space * 3;
+      display: block;
+      background: none;
+    }
+
+    > section {
+      display: flex;
+      flex-flow: row wrap;
+
+      > header {
+        width: 100%;
+        margin-top: $gutter-space;
+        display: block;
+      }
+    }
+
+    > footer {
+      display: flex;
+    }
+  }
+
+  // Global Heading
+  .heading {
+    text-align: center;
+    color: #000;
+
+    &.tag {
+      font-size: 1rem;
+      background: $gray-light;
+      color: white;
+      padding: .25em .5em;
+      margin-bottom: 1em;
+      display: inline-block;
+    }
+
+    ~ hr {
+      display: block;
+      width: $gutter-space * 2;
+      height: 3px;
+      background-color: $pink;
+    }
+  }
+
+
+  // Colors Section
+  .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    > * {
+      flex: 1 0 50%;
+      text-align: center;
+
+        @media screen and (min-width: 50em) {
+          flex: 1 0 15%;
+        }
+
+        p {
+          margin: 0;
+        }
+
+      &::before {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-bottom: .5em;
+      }
+      &.primary::before {
+        height: 200px;
+        width: 200px;
+      }
+      &.secondary::before {
+        height: 150px;
+        width: 150px;
+      }
+      &.tertiary::before {
+        height: 100px;
+        width: 100px;
+      }
+
+      &::after {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        content: '';
+        display: block;
+        position: relative;
+        text-align: center;
+      }
+
+      margin: 1em 0;
+
+      &.nuskin-blue {
+        &::before {
+          background: $brand-primary;
+        }
+
+        &::after {
+          content: '#{$brand-primary}';
+        }
+      }
+      &.blue-1 {
+        &::before {
+          background: $blue-light;
+        }
+
+        &::after {
+          content: '#{$blue-light}';
+        }
+      }
+      &.blue-2 {
+        &::before {
+          background: $blue-lighter;
+        }
+
+        &::after {
+          content: '#{$blue-lighter}';
+        }
+      }
+      &.blue-3 {
+        &::before {
+          background: $blue-lightest;
+        }
+
+        &::after {
+          content: '#{$blue-lightest}';
+        }
+      }
+      &.brand-primary {
+        &::before {
+          background: $brand-primary;
+        }
+
+        &::after {
+          content: '#{$brand-primary}';
+        }
+
+      }
+      &.brand-success {
+        &::before {
+          background: $brand-success;
+        }
+        &::after {
+          content: '#{$brand-primary}';
+        }
+      }
+      &.brand-info {
+        &::before {
+          background: $brand-info;
+        }
+        &::after {
+          content: '#{$brand-info}';
+        }
+      }
+      &.brand-warning {
+        &::before {
+          background: $brand-warning;
+        }
+        &::after {
+          content: '#{$brand-warning}';
+        }
+      }
+      &.brand-danger {
+        &::before {
+          background: $brand-danger;
+        }
+        &::after {
+          content: '#{$brand-danger}';
+        }
+      }
+      &.gray-black {
+        &::before {
+          background: $gray-black;
+        }
+        &::after {
+          content: '#{$gray-black}';
+        }
+      }
+      &.gray-dark {
+        &::before {
+          background: $gray-dark;
+        }
+        &::after {
+          content: '#{$gray-dark}';
+        }
+      }
+      &.gray {
+        &::before {
+          background: $gray;
+        }
+        &::after {
+          content: '#{$gray}';
+        }
+      }
+      &.gray-light {
+        &::before {
+          background: $gray-light;
+        }
+        &::after {
+          content: '#{$gray-light}';
+        }
+      }
+      &.gray-lighter {
+        &::before {
+          background: $gray-lighter;
+        }
+        &::after {
+          content: '#{$gray-lighter}';
+        }
+      }
+      &.gray-lightest {
+        &::before {
+          background: $gray-lightest;
+        }
+        &::after {
+          content: '#{$gray-lightest}';
+        }
+      }
+      &.pink {
+        &::before {
+          background: $pink;
+        }
+        &::after {
+          content: '#{$pink}';
+        }
+      }
+      &.aqua {
+        &::before {
+          background: $aqua;
+        }
+        &::after {
+          content: '#{$aqua}';
+        }
+      }
+      &.dusk {
+        &::before {
+          background: $dusk;
+        }
+        &::after {
+          content: '#{$dusk}';
+        }
+      }
+
+      &.cayman {
+        &::before {
+           background: linear-gradient(to bottom, $brand-primary 0%,$aqua 100%);
+        }
+        &::after {
+          content: '#008AB0 to #1CD8D2';
+        }
+      }
+
+      &.seafoam {
+        &::before {
+           background: linear-gradient(to bottom, $aqua 0%, #93EDC7 100%);
+        }
+        &::after {
+          content: '#1CD8D2 to #93EDC7';
+        }
+      }
+
+      &.sunset {
+        &::before {
+           background: linear-gradient(to bottom, #9349B4 0%, #FF8782 100%);
+        }
+        &::after {
+          content: '#9349B4 to #FF8782';
+        }
+      }
+    }
+  }
+
+  .gradient::before {
+      width: 350px;
+      height: 200px;
+      border-radius: 0;
+    }
+
+  // Fonts
+  .font-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    > * {
+      flex: 1 0 50%;
+      text-align: center;
+      border: 1px solid #E1E1E1;
+      background: $gray-white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 1em 0 0 2%;
+
+        @media screen and (min-width: 50em) {
+          flex: 1 0 20%;
+        }
+
+      h4 {
+        padding: 1em;
+        font-size: 3rem;
+        line-height: 1;
+        &.proxima-thin {
+          font-weight: $proxima-thin;
+        }
+        &.proxima-light {
+          font-weight: $proxima-light;
+        }
+        &.proxima-semibold {
+          font-weight: $proxima-semibold;
+        }
+        &.proxima-condensed-thin {
+          font-family: $proxima-condensed;
+          font-weight: $proxima-condensed-thin;
+        }
+      }
+
+      p {
+        border-top: 1px solid #E1E1E1;
+        background: white;
+        padding: 1em;
+        font-size: 0.75rem;
+        font-weight: $proxima-semibold;
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .fonts {
+    margin-top: 6em;
+    > div {
+      padding: 2em 1em;
+      border-top: 1px solid $gray-lighter;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      figcaption {
+        margin: 0;
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+
+
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    > div {
+      padding: 1em;
+    }
+  }
+}
+
+
+header.ui-kit-header {
+  position: relative;
+  background: $brand-primary;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .branding {
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+
+  span.title {
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+nav.ui-kit-nav {
+  margin-top: 1.5em;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    > li {
+      display: block;
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+        padding-left: $gutter-space;
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+      > a {
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

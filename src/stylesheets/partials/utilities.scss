@@ -1,0 +1,78 @@
+// Utilities
+
+header.navigation {
+  background: $brand-primary;
+  min-height: 3em;
+  padding: 1em;
+  p, a {
+    color: $blue-light;
+  }
+}
+
+.inverse {
+  color: white!important;
+  * {
+      color: white!important;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.primary-bg {
+  background: $brand-primary;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.cayman-bg {
+  background: $cayman;
+}
+// .divider {
+//   background: $gray;
+//   border-radius: 50%;
+// }
+
+.divider {
+  display: block;
+  text-align: center;
+  margin: 1.5em 0;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: $gray-lighter;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  p {
+    position: relative;
+    display: inline;
+    border-radius: 50%;
+    border: 1px solid $gray-lighter;
+    background: $gray-lightest;
+    color: $gray;
+    padding: .35em;
+    z-index: 1;
+  }
+}
+
+.pad-1 {
+  padding: 1em;
+}
+
+.btn.ng-hide {
+  opacity: 0;
+  transition: opacity .25s ease-out;
+}
+
+.lowercase {
+  text-transform: none;
+}

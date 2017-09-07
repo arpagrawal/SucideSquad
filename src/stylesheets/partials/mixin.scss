@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+/////////////////////////////////
+// MIXINS
+/////////////////////////////////
+
+// Breakpoints
+
+// @include media-breakpoint-up(sm) {}
+// @include media-breakpoint-up(md) {}
+// @include media-breakpoint-up(lg) {}
+// @include media-breakpoint-up(xl) {}
+
+
+@mixin visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+@mixin visuallyShown {
+  position: relative;
+  overflow: initial;
+  clip: none;
+  height: auto;
+  width: auto;
+  margin: inherit;
+  padding: auto;
+  border: auto;
+}
