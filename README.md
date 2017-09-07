@@ -1,0 +1,2 @@
+# SucideSquad
+Repository for hackthon
